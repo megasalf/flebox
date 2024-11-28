@@ -1,0 +1,47 @@
+body {
+         font-family: Arial, sans-serif;
+         margin: 0;
+         padding: 0;
+     }
+     .navbar {
+         display: flex;
+         align-items: center;
+         justify-content: space-between;
+         padding: 10px 20px;
+         background-color: white;
+     }
+     .navbar .logo {
+         display: flex;
+         align-items: center;
+     }
+     .navbar .logo img {
+         width: 100px;
+         height: 40px;
+     }
+     .navbar .logo span {
+         font-size: 20px;
+         font-weight: bold;
+         margin-left: 10px;
+     }
+     .navbar .menu {
+         display: flex;
+         align-items: center;
+     }
+     .navbar .menu a {
+         text-decoration: none;
+         color: #7d7d7d;
+         margin: 0 15px;
+         font-size: 16px;
+     }
+     .navbar .language {
+         display: flex;
+         align-items: center;
+     }
+     .navbar .language button {
+         background-color: #7d7d7d;
+         color: white;
+         border: none;
+         padding: 10px 15px;
+         margin-left: 10px;
+         cursor: pointer;
+     }

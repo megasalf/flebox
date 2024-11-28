@@ -1,0 +1,36 @@
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+.container {
+    width: 400px;
+}
+.menu-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #d3d3d3;
+    padding: 20px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+}
+.menu-item:last-child {
+    margin-bottom: 0;
+}
+.menu-item span {
+    font-size: 18px;
+    font-weight: bold;
+}
+.menu-item button {
+    background-color: white;
+    border: 1px solid #ccc;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
